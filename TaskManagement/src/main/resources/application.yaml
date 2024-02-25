@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mynewdb
+    username: myuser
+    password: mypassword
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+info:
+  app:
+    name: "This is attempt to try the patterns usage"
+    version: "1.0.0"
+    description: "This task management service is exist for nothing)!"
